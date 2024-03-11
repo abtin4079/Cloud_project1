@@ -14,4 +14,5 @@ def send_simple_message():
 			"subject": "Music",
 			"text": f"{responseData['tracks'][2]['name']}"})
 
-print(send_simple_message())
+if __name__ == "__main__":
+    print(send_simple_message())

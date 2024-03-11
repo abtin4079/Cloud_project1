@@ -18,6 +18,10 @@ def recommender():
 
     responseData = response.json()
     for i in range(5):
-        print(responseData['tracks'][i]['name'])
+        print(f"track {i} : {responseData['tracks'][i]['name']}")
 
     return responseData
+
+
+# if __name__ == "__main__":
+#     recommender()

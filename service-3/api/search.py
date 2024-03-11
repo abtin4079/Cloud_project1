@@ -17,11 +17,12 @@ def searchMusic():
     data = response.json()
 
     id = data['tracks']['items'][0]['data']['id']
-    print(id)
+    print(f"id: {id}")
     return id
 
 
-
+# if __name__ == "__main__":
+#     searchMusic()
 
 
 
