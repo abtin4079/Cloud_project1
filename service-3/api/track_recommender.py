@@ -1,5 +1,5 @@
 import requests
-from serach import searchMusic
+from search import searchMusic
 
 
 
