@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./service-2",
+        "./service-3"
+    ]
+}
