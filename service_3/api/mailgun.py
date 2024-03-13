@@ -18,8 +18,6 @@ def send_simple_message(responseData, email):
 			"text": text_value
 		}
 	)
-    
 	return response
-
 if __name__ == "__main__":
     print(send_simple_message())

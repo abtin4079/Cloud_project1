@@ -14,7 +14,7 @@ engine = sqlalchemy.create_engine(
 request_table = sqlalchemy.Table(
     "request",
     metadata,
-    sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
+    sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True, nullable=False),
     sqlalchemy.Column("email", sqlalchemy.String),
     sqlalchemy.Column("state", sqlalchemy.String),
     sqlalchemy.Column("songid", sqlalchemy.String),
